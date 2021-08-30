@@ -257,7 +257,7 @@ export default {
         },
         backendOptions: [{ value: "https://api.faintghost.com/sub?" }],
         remoteConfig: [
-         {
+          {
             label: "ACL4SSR",
             options: [
               {
@@ -365,6 +365,16 @@ export default {
                 label: "ACL4SSR_WithGFW 本地 GFW列表",
                 value: "config/ACL4SSR_WithGFW.ini"
               }
+            ]
+          }
+          {
+            label: "ACL4SSR",
+            options: [
+              {
+                label: "ACL4SSR_Online 个人用",
+                value:
+                  "https://raw.githubusercontent.com/FaintGhost/ACL4SSR/master/Clash/config/ACL4SSR_Customized.ini"
+              },
             ]
           }
         ]
