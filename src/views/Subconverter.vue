@@ -257,13 +257,13 @@ export default {
         },
         backendOptions: [{ value: "https://api.faintghost.com/sub?" }],
         remoteConfig: [
-          {
+         {
             label: "ACL4SSR",
             options: [
               {
-                label: "ACL4SSR_Online 默认版 分组比较全 (与Github同步)",
+                label: "ACL4SSR_Customized",
                 value:
-                  "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini"
+                  "https://raw.githubusercontent.com/FaintGhost/ACL4SSR/master/Clash/config/ACL4SSR_Customized.ini"
               },
               {
                 label: "ACL4SSR_Online_AdblockPlus 更多去广告 (与Github同步)",
@@ -324,57 +324,7 @@ export default {
                 label: "ACL4SSR_Online_Full_Netflix 全分组 重度用户使用 奈飞全量 (与Github同步)",
                 value:
                   "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_Netflix.ini"
-              },
-              {
-                label: "ACL4SSR 本地 默认版 分组比较全",
-                value: "config/ACL4SSR.ini"
-              },
-              {
-                label: "ACL4SSR_Mini 本地 精简版",
-                value: "config/ACL4SSR_Mini.ini"
-              },
-              {
-                label: "ACL4SSR_Mini_NoAuto.ini 本地 精简版+无自动测速",
-                value: "config/ACL4SSR_Mini_NoAuto.ini"
-              },
-              {
-                label: "ACL4SSR_Mini_Fallback.ini 本地 精简版+fallback",
-                value: "config/ACL4SSR_Mini_Fallback.ini"
-              },
-              {
-                label: "ACL4SSR_BackCN 本地 回国",
-                value: "config/ACL4SSR_BackCN.ini"
-              },
-              {
-                label: "ACL4SSR_NoApple 本地 无苹果分流",
-                value: "config/ACL4SSR_NoApple.ini"
-              },
-              {
-                label: "ACL4SSR_NoAuto 本地 无自动测速 ",
-                value: "config/ACL4SSR_NoAuto.ini"
-              },
-              {
-                label: "ACL4SSR_NoAuto_NoApple 本地 无自动测速&无苹果分流",
-                value: "config/ACL4SSR_NoAuto_NoApple.ini"
-              },
-              {
-                label: "ACL4SSR_NoMicrosoft 本地 无微软分流",
-                value: "config/ACL4SSR_NoMicrosoft.ini"
-              },
-              {
-                label: "ACL4SSR_WithGFW 本地 GFW列表",
-                value: "config/ACL4SSR_WithGFW.ini"
               }
-            ]
-          }
-          {
-            label: "ACL4SSR",
-            options: [
-              {
-                label: "ACL4SSR_Online 个人用",
-                value:
-                  "https://raw.githubusercontent.com/FaintGhost/ACL4SSR/master/Clash/config/ACL4SSR_Customized.ini"
-              },
             ]
           }
         ]
