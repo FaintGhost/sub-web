@@ -332,7 +332,7 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: "",
+        customBackend: "https://api.faintghost.com/sub?",
         remoteConfig: "",
         excludeRemarks: "",
         includeRemarks: "",
