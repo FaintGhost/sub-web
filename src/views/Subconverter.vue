@@ -217,7 +217,7 @@ export default {
             label: "Default",
             options: [
               {
-                label: "Default",
+                label: "Personal",
                 value:
                   "https://raw.githubusercontent.com/FaintGhost/ruleset/main/personal.ini"
               }
