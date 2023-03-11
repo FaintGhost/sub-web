@@ -214,13 +214,16 @@ export default {
         backendOptions: [{ value: "https://api.faintghost.com/sub?" }],
         remoteConfig: [
           {
-            label: "universal",
+            label: "Default",
             options: [
               {
                 label: "Default",
                 value:
                   "https://raw.githubusercontent.com/FaintGhost/ruleset/main/personal.ini"
-              },
+              }
+            ],
+            label: "universal",
+            options: [
               {
                 label: "No-Urltest",
                 value:
